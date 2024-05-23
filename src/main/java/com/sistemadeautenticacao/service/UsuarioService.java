@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
 @Service
 public class UsuarioService {
 
@@ -24,12 +23,11 @@ public class UsuarioService {
         return usuarioRepository.findById(id)
                 .orElseThrow(() -> new UsuarioNotFoundException("Usuário não encontrado com ID: " + id));
     }
-  
+
     public Usuario findByNome(String nome) {
         return usuarioRepository.findByNome(nome)
                 .orElseThrow(() -> new UsuarioNotFoundException("Usuário não encontrado com nome: " + nome));
     }
-    
 
     public Usuario save(Usuario usuario) {
         return usuarioRepository.save(usuario);
@@ -41,8 +39,7 @@ public class UsuarioService {
         }
         usuarioRepository.deleteById(id);
     }
-    
-   
+
     public Usuario update(Long id, Usuario usuario) {
         return usuarioRepository.findById(id)
                 .map(existingUser -> {
@@ -52,5 +49,5 @@ public class UsuarioService {
                     return usuarioRepository.save(existingUser);
                 }).orElseThrow(() -> new UsuarioNotFoundException("Usuário não encontrado com ID: " + id));
 
-}
+    }
 }

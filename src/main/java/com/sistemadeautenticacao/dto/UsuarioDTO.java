@@ -14,7 +14,7 @@ public class UsuarioDTO {
     private String email;
 
     @NotBlank(message = "A senha não pode estar vazia.")
-     @Size(min = 8, message = "A senha deve ter pelo menos 8 caracteres.")
+    @Size(min = 8, message = "A senha deve ter pelo menos 8 caracteres.")
     private String senha;
 
     // Getters e Setters

@@ -1,0 +1,6 @@
+version: "3"
+services:
+  sistemadeautenticacao:
+    image: sistemadeautenticacao-frontend:latest
+    ports:
+      - "8080:8080"

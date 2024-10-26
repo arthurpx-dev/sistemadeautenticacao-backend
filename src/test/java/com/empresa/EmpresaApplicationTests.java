@@ -1,10 +1,10 @@
-package com.sistemadeautenticacao;
+package com.empresa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SistemadeautenticacaoApplicationTests {
+class empresaApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.sistemadeautenticacao.exception;
+package com.empresa.exception;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.http.HttpStatus;

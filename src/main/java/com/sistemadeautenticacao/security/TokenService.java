@@ -1,4 +1,4 @@
-package com.sistemadeautenticacao.infra.security;
+package com.sistemadeautenticacao.security;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

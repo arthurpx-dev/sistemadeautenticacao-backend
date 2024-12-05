@@ -1,4 +1,4 @@
-package com.sistemadeautenticacao.infra.security;
+package com.sistemadeautenticacao.filter;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -12,6 +12,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.sistemadeautenticacao.model.User;
 import com.sistemadeautenticacao.repository.UserRepository;
+import com.sistemadeautenticacao.security.TokenService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

@@ -1,4 +1,4 @@
-package com.sistemadeautenticacao.infra.security;
+package com.sistemadeautenticacao.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +15,9 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import com.sistemadeautenticacao.filter.SecurityFilter;
+import com.sistemadeautenticacao.security.CustomUserDetailsService;
 
 @Configuration
 @EnableWebSecurity

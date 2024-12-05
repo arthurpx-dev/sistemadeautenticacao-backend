@@ -11,7 +11,6 @@ import com.sistemadeautenticacao.model.User;
 public interface UserRepository extends JpaRepository<User, Long> {
 
     Optional<User> findByName(String name);
-    // Adicione outros métodos de busca conforme necessário
 
     Optional<User> findByEmail(String email);
 }

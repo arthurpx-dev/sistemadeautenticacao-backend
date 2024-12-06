@@ -1,4 +1,4 @@
-package com.sistemadeautenticacao.exception;
+package com.empresa.exception;
 
 public class UsuarioNotFoundException extends RuntimeException {
     

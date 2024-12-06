@@ -1,13 +1,13 @@
-package com.sistemadeautenticacao;
+package com.empresa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SistemadeautenticacaoApplication {
+public class EmpresaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SistemadeautenticacaoApplication.class, args);
+		SpringApplication.run(EmpresaApplication.class, args);
 	}
 
 }
